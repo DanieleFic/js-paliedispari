@@ -10,7 +10,7 @@ function sommaNumeri(){
     return sommaDueNumeri;
 }
 
-let pariDispari = prompt("Pari o Dispari?")
+let pariDispari = prompt("Pari o Dispari?")//chiediamo all utente di scegliere tra pari o dispari;
 
 
 
@@ -23,7 +23,7 @@ let numeroAI = '';
 let somma = 0;
 
 
-if((pariDispari =='Pari') ||(pariDispari =='pari') ||(pariDispari =='Dispari') ||(pariDispari =='dispari')){
+if((pariDispari =='Pari') ||(pariDispari =='pari') ||(pariDispari =='Dispari') ||(pariDispari =='dispari')){ //se l'utente inserisce una di queste parole entriamo nel ciclo
     numeroUtente = parseInt(prompt("scegli un numero da 1 a 5"))
     numeroAI = Math.floor(Math.random() * 5 +1);
     somma = sommaNumeri(numeroUtente, numeroAI);
