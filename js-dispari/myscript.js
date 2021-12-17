@@ -35,7 +35,7 @@ if((pariDispari =='Pari') ||(pariDispari =='pari') ||(pariDispari =='Dispari') |
 }else{
     alert("riprova")
 }
-if((somma%2 == 0)){
+if((pariDispari =='Pari') ||(pariDispari =='pari') && (somma%2 == 0)){
     console.log("hai vinto!");
 }else{
     console.log("hai perso!");
